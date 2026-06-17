@@ -1,0 +1,10 @@
+{
+     "uname": "Mostafa Mahmoud",
+     "balance": 5250.0,
+     "trans": [
+          "5000 is added successfully",
+          "900 is added successfully",
+          "750.0 is taken"
+     ],
+     "pass": "1234"
+}
