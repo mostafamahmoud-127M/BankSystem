@@ -1,4 +1,4 @@
-# Simple Banking System
+# Simple CLI Banking System
 
 A lightweight, object-oriented Command Line Interface (CLI) banking application built with **Python**. This system handles user persistence via a native JSON database, allowing users to securely manage their account details, balances, and real-time transaction tracking between sessions.
 
@@ -17,10 +17,21 @@ A lightweight, object-oriented Command Line Interface (CLI) banking application 
 
 ---
 
+## Application Preview
+
+### Successful Login & Transaction
+![Successful Transaction](assets/login_success.png)
+
+###  Failed Login (Max Attempts Reached)
+![Failed Login Attempts](assets/login_failed.jpg)
+
+---
+
 ##  Project Architecture
 
 ```text
 ├── assets/
-│   └── output_screenshot.png  # Application preview image
+│   ├── login_success.png     # Screenshot of a successful deposit/check balance session
+│   └── login_failed.jpg       # Screenshot of the 3-attempt password lockout limit
 ├── bank_app.py                # Core application logic, main script, and UI loop
 └── savingFile.json            # Local JSON state file (Auto-generated database)
